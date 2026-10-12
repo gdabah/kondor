@@ -1,0 +1,64 @@
+MIT License
+
+Copyright (c) 1997-1999 Gil Dabah and Oren Becker
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===============================================================================
+SCOPE OF THIS LICENSE
+===============================================================================
+
+The MIT License above applies only to the source code written by Gil Dabah
+and Oren Becker. It does NOT apply to the material listed below, and nothing
+in this repository grants any rights to that material.
+
+1. Sound Blaster code based on the tutorials of Steven H. Don
+
+   - SOUND.H, the entire file.
+   - QUNIT.H, the following parts only:
+       * the WaveData struct
+       * the functions WriteDSP, ResetDSP, ReadDSP, initsb and closesb
+
+   This code remains under its original author's terms.
+
+2. Graphics
+
+   a) Image and graphics data files:
+       * Images/*.bmp
+       * kondor.dat, kondor2.dat, KONDOR3.DAT, kondor4.dat, kondor5.dat,
+         KONDOR6.DAT, kondor17.dat, kondor18.dat, KONDOR19.DAT, KONDOR20.DAT
+       * kondor.pal, kondor.fnt
+       * editor/kondor.dat, editor/kondor.pal
+
+   b) Image data embedded in source files, including arrays that are
+      commented out. The rest of the code in these files is covered by
+      the MIT License.
+       * menupix.h: start_s, startc_s, resume_s, resumec_s, options_s,
+         optionsc_s, help_s, helpc_s, exit_s, exitc_s, gameover_s,
+         missacco_s, scores_s, scoresc_s
+       * IMAGES.H: rock_img, enemy_sprt, gap_img, turcan_img, fshoe_img,
+         mig_img, fly_img, turpad_img, shield_img, cross_img, skey_img,
+         rocket_img, tank_img, cannon_img, bullet_img, object_img,
+         expl1 to expl4, texpl1 to texpl5
+       * editor/SPRTS.H: mousec, tank_img, enemy_img, rock_img, TURPAD_IMG,
+         FLY_IMG, MIG_IMG, OBJECT_IMG, BASE_IMG
+
+   All rights in the graphics are reserved by their respective owners.
+   They may be redistributed, unmodified, as part of the Kondor game, as
+   they have been since 1999. No other rights are granted.
